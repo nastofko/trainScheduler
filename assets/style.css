@@ -1,0 +1,38 @@
+.panel-default > .black {
+	background-color: black;
+    color: white;
+    
+}
+
+.black {
+	background-color: black;
+	color: white;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-image: url(https://cdn.hipwallpaper.com/i/59/12/HEIRNS.jpg);
+    text-align: center;
+	font-size: 15px;
+
+}
+
+#main-cont {
+	max-width: 925px;
+	margin-left: 300px;
+	margin-top: 25px;
+	
+	
+}
+
+#copy {
+	float: right;
+	margin-top: 15px;
+	font-family: 'EB Garamond', serif;
+}
+
+.form-control{
+font-size: 15px;
+color: black;
+}
+
