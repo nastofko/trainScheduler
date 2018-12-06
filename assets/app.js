@@ -2,6 +2,7 @@ $(document).ready(function () {
 
     var rightNow = moment();
     displayTrains()
+    
     console.log("CURRENT TIME IS: " + moment(rightNow).format("hh:mm:ss"));
 
     let trains = [];
