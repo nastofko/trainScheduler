@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
     var rightNow = moment();
-
+    displayTrains()
     console.log("CURRENT TIME IS: " + moment(rightNow).format("hh:mm:ss"));
-    
+
     let trains = [];
 
     $("#add-train").on("click", function (event) {
@@ -27,8 +27,8 @@ $(document).ready(function () {
         }
     });
     function displayTrains() {
-        const display = JSON.parse(localStorage.getItem('trainArray'));
         $('#input-table-body').empty();
+        const display = JSON.parse(localStorage.getItem('trainArray'));
         for (let i = 0; i < display.length; i++) {
             let tableRow = $('<tr>');
             let tableName = $('<td>').text(display[i].name);
